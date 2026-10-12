@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<VOTABLE version="1.3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+    xmlns:stc="http://www.ivoa.net/xml/STC/v1.30">
+    <RESOURCE type="results">
+        <LINK title="gaiadr3.gaia_source_lite" content-role="doc" href="https://doi.org/10.17876/gaia/dr.3/1"/>
+        <INFO name="QUERY_STATUS" value="OK" />
+        <INFO name="QUERY" value="SELECT TOP 100&#10;source_id, ra, dec, parallax&#10;FROM gaiadr3.gaia_source_lite&#10;WHERE parallax &gt; 275&#10;ORDER BY parallax DESC" />
+        <INFO name="QUERY_LANGUAGE" value="adql-2.0" />
+        <INFO name="SOURCE" value="gaiadr3.gaia_source_lite" />
+        <TABLE name="gaia_user_anonymous.2026-10-04-21-10-38-358689">
+                <FIELD name="source_id" ucd="meta.id;meta.main;meta.ref" ID="datalinkID" datatype="long"> <DESCRIPTION>Unique source identifier (unique within a particular Data Release)</DESCRIPTION> </FIELD>
+                
+                <FIELD name="ra" unit="deg" ucd="pos.eq.ra;meta.main" datatype="double"> <DESCRIPTION>Right ascension</DESCRIPTION> </FIELD>
+                
+                <FIELD name="dec" unit="deg" ucd="pos.eq.dec;meta.main" datatype="double"> <DESCRIPTION>Declination</DESCRIPTION> </FIELD>
+                
+                <FIELD name="parallax" unit="mas" ucd="pos.parallax.trig" datatype="double"> <DESCRIPTION>Parallax</DESCRIPTION> </FIELD>
+                
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>5853498713190525696</TD>
+                        <TD>217.39232147200883</TD>
+                        <TD>-62.67607511676666</TD>
+                        <TD>768.0665391873573</TD>
+                    </TR>
+                    <TR>
+                        <TD>4472832130942575872</TD>
+                        <TD>269.44850252543836</TD>
+                        <TD>4.739420051112412</TD>
+                        <TD>546.975939730948</TD>
+                    </TR>
+                    <TR>
+                        <TD>3864972938605115520</TD>
+                        <TD>164.10319030755974</TD>
+                        <TD>7.002726940984864</TD>
+                        <TD>415.17941567802137</TD>
+                    </TR>
+                    <TR>
+                        <TD>762815470562110464</TD>
+                        <TD>165.83095967577933</TD>
+                        <TD>35.948653032660104</TD>
+                        <TD>392.75294543876464</TD>
+                    </TR>
+                    <TR>
+                        <TD>2947050466531873024</TD>
+                        <TD>101.28662552099249</TD>
+                        <TD>-16.720932526023173</TD>
+                        <TD>374.48958852876103</TD>
+                    </TR>
+                    <TR>
+                        <TD>5140693571158946048</TD>
+                        <TD>24.771674208211856</TD>
+                        <TD>-17.947682860008488</TD>
+                        <TD>373.8443122683992</TD>
+                    </TR>
+                    <TR>
+                        <TD>5140693571158739840</TD>
+                        <TD>24.771554293454546</TD>
+                        <TD>-17.948299887129313</TD>
+                        <TD>367.71189618147696</TD>
+                    </TR>
+                    <TR>
+                        <TD>4075141768785646848</TD>
+                        <TD>282.4587890175222</TD>
+                        <TD>-23.83709744872712</TD>
+                        <TD>336.0266016683708</TD>
+                    </TR>
+                    <TR>
+                        <TD>1926461164913660160</TD>
+                        <TD>355.4800152581559</TD>
+                        <TD>44.170375700747755</TD>
+                        <TD>316.48118678226916</TD>
+                    </TR>
+                    <TR>
+                        <TD>5164707970261890560</TD>
+                        <TD>53.22829341517546</TD>
+                        <TD>-9.458168216292322</TD>
+                        <TD>310.5772928005821</TD>
+                    </TR>
+                    <TR>
+                        <TD>6553614253923452800</TD>
+                        <TD>346.5039166796005</TD>
+                        <TD>-35.8471642082214</TD>
+                        <TD>304.1353692001036</TD>
+                    </TR>
+                    <TR>
+                        <TD>3796072592206250624</TD>
+                        <TD>176.93768799004127</TD>
+                        <TD>0.7991199702364985</TD>
+                        <TD>296.3053079139394</TD>
+                    </TR>
+                    <TR>
+                        <TD>1872046574983497216</TD>
+                        <TD>316.753662752556</TD>
+                        <TD>38.75607277205679</TD>
+                        <TD>286.0053518616485</TD>
+                    </TR>
+                    <TR>
+                        <TD>1872046609345556480</TD>
+                        <TD>316.7484792940004</TD>
+                        <TD>38.76386244649797</TD>
+                        <TD>285.99494829578117</TD>
+                    </TR>
+                    <TR>
+                        <TD>2154880616774131840</TD>
+                        <TD>280.6830708352289</TD>
+                        <TD>59.638357907754816</TD>
+                        <TD>283.8401180184389</TD>
+                    </TR>
+                    <TR>
+                        <TD>2154880616774131712</TD>
+                        <TD>280.68308624583415</TD>
+                        <TD>59.635145454818776</TD>
+                        <TD>283.8377678450057</TD>
+                    </TR>
+                    <TR>
+                        <TD>385334230892516480</TD>
+                        <TD>4.613226257557736</TD>
+                        <TD>44.02478674398518</TD>
+                        <TD>280.706821579123</TD>
+                    </TR>
+                    <TR>
+                        <TD>385334196532776576</TD>
+                        <TD>4.625300681217554</TD>
+                        <TD>44.02874451664357</TD>
+                        <TD>280.6947310460246</TD>
+                    </TR>
+                    <TR>
+                        <TD>703790044252850688</TD>
+                        <TD>127.45009240230564</TD>
+                        <TD>26.77328596508202</TD>
+                        <TD>279.2496391012477</TD>
+                    </TR>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+    </RESOURCE>
+    <RESOURCE type="meta" utype="adhoc:service">
+        <PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/DataLink#links-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="*" value="https://gaia.aip.de/datalink/links" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="*" value="" ref="datalinkID"/>
+        </GROUP>
+    </RESOURCE>
+</VOTABLE>
